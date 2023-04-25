@@ -1,0 +1,5 @@
+
+<div *ngIf="(authService.isAuthenticated$ | async)">
+<button (click)="logout()">Logout</button>
+
+</div>
